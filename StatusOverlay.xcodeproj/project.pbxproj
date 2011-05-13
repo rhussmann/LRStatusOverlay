@@ -14,8 +14,9 @@
 		F4974C2A137DCBEB00015426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4974C29137DCBEB00015426 /* main.m */; };
 		F4974C2D137DCBEB00015426 /* StatusOverlayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4974C2C137DCBEB00015426 /* StatusOverlayAppDelegate.m */; };
 		F4974C30137DCBEB00015426 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4974C2E137DCBEB00015426 /* MainWindow.xib */; };
-		F4974C33137DCBEB00015426 /* StatusOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4974C32137DCBEB00015426 /* StatusOverlayViewController.m */; };
-		F4974C36137DCBEB00015426 /* StatusOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4974C34137DCBEB00015426 /* StatusOverlayViewController.xib */; };
+		F4974C3F137DCC1800015426 /* LRStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4974C3E137DCC1800015426 /* LRStatusView.m */; };
+		F4974C43137DCECE00015426 /* StatusOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4974C41137DCECE00015426 /* StatusOverlayViewController.m */; };
+		F4974C44137DCECE00015426 /* StatusOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4974C42137DCECE00015426 /* StatusOverlayViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		F4974C1C137DCBEB00015426 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4974C1E137DCBEB00015426 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4974C20137DCBEB00015426 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F4974C24137DCBEB00015426 /* StatusOverlay-Info.plist */ = {isa = PBXFileReference; path = "StatusOverlay-Info.plist"; sourceTree = "<group>"; };
+		F4974C24137DCBEB00015426 /* StatusOverlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StatusOverlay-Info.plist"; sourceTree = "<group>"; };
 		F4974C26137DCBEB00015426 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F4974C28137DCBEB00015426 /* StatusOverlay-Prefix.pch */ = {isa = PBXFileReference; path = "StatusOverlay-Prefix.pch"; sourceTree = "<group>"; };
+		F4974C28137DCBEB00015426 /* StatusOverlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StatusOverlay-Prefix.pch"; sourceTree = "<group>"; };
 		F4974C29137DCBEB00015426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F4974C2B137DCBEB00015426 /* StatusOverlayAppDelegate.h */ = {isa = PBXFileReference; path = StatusOverlayAppDelegate.h; sourceTree = "<group>"; };
+		F4974C2B137DCBEB00015426 /* StatusOverlayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusOverlayAppDelegate.h; sourceTree = "<group>"; };
 		F4974C2C137DCBEB00015426 /* StatusOverlayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusOverlayAppDelegate.m; sourceTree = "<group>"; };
 		F4974C2F137DCBEB00015426 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F4974C31137DCBEB00015426 /* StatusOverlayViewController.h */ = {isa = PBXFileReference; path = StatusOverlayViewController.h; sourceTree = "<group>"; };
-		F4974C32137DCBEB00015426 /* StatusOverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusOverlayViewController.m; sourceTree = "<group>"; };
-		F4974C35137DCBEB00015426 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StatusOverlayViewController.xib; sourceTree = "<group>"; };
+		F4974C3D137DCC1800015426 /* LRStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRStatusView.h; sourceTree = "<group>"; };
+		F4974C3E137DCC1800015426 /* LRStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRStatusView.m; sourceTree = "<group>"; };
+		F4974C40137DCECE00015426 /* StatusOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = StatusOverlayViewController.h; sourceTree = "<group>"; };
+		F4974C41137DCECE00015426 /* StatusOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusOverlayViewController.m; sourceTree = "<group>"; };
+		F4974C42137DCECE00015426 /* StatusOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusOverlayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +55,8 @@
 		F4974C0D137DCBEB00015426 = {
 			isa = PBXGroup;
 			children = (
-				F4974C22137DCBEB00015426 /* StatusOverlay */,
+				F4974C3C137DCC0000015426 /* src */,
+				F4974C22137DCBEB00015426 /* Sample Application */,
 				F4974C1B137DCBEB00015426 /* Frameworks */,
 				F4974C19137DCBEB00015426 /* Products */,
 			);
@@ -76,17 +80,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F4974C22137DCBEB00015426 /* StatusOverlay */ = {
+		F4974C22137DCBEB00015426 /* Sample Application */ = {
 			isa = PBXGroup;
 			children = (
 				F4974C2B137DCBEB00015426 /* StatusOverlayAppDelegate.h */,
 				F4974C2C137DCBEB00015426 /* StatusOverlayAppDelegate.m */,
 				F4974C2E137DCBEB00015426 /* MainWindow.xib */,
-				F4974C31137DCBEB00015426 /* StatusOverlayViewController.h */,
-				F4974C32137DCBEB00015426 /* StatusOverlayViewController.m */,
-				F4974C34137DCBEB00015426 /* StatusOverlayViewController.xib */,
+				F4974C40137DCECE00015426 /* StatusOverlayViewController.h */,
+				F4974C41137DCECE00015426 /* StatusOverlayViewController.m */,
+				F4974C42137DCECE00015426 /* StatusOverlayViewController.xib */,
 				F4974C23137DCBEB00015426 /* Supporting Files */,
 			);
+			name = "Sample Application";
 			path = StatusOverlay;
 			sourceTree = "<group>";
 		};
@@ -99,6 +104,15 @@
 				F4974C29137DCBEB00015426 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4974C3C137DCC0000015426 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F4974C3D137DCC1800015426 /* LRStatusView.h */,
+				F4974C3E137DCC1800015426 /* LRStatusView.m */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +167,7 @@
 			files = (
 				F4974C27137DCBEB00015426 /* InfoPlist.strings in Resources */,
 				F4974C30137DCBEB00015426 /* MainWindow.xib in Resources */,
-				F4974C36137DCBEB00015426 /* StatusOverlayViewController.xib in Resources */,
+				F4974C44137DCECE00015426 /* StatusOverlayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +180,8 @@
 			files = (
 				F4974C2A137DCBEB00015426 /* main.m in Sources */,
 				F4974C2D137DCBEB00015426 /* StatusOverlayAppDelegate.m in Sources */,
-				F4974C33137DCBEB00015426 /* StatusOverlayViewController.m in Sources */,
+				F4974C3F137DCC1800015426 /* LRStatusView.m in Sources */,
+				F4974C43137DCECE00015426 /* StatusOverlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,14 +202,6 @@
 				F4974C2F137DCBEB00015426 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		F4974C34137DCBEB00015426 /* StatusOverlayViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4974C35137DCBEB00015426 /* en */,
-			);
-			name = StatusOverlayViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
