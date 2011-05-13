@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4974C1D137DCBEB00015426 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4974C1C137DCBEB00015426 /* UIKit.framework */; };
+		F4974C1F137DCBEB00015426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4974C1E137DCBEB00015426 /* Foundation.framework */; };
+		F4974C21137DCBEB00015426 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4974C20137DCBEB00015426 /* CoreGraphics.framework */; };
+		F4974C27137DCBEB00015426 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4974C25137DCBEB00015426 /* InfoPlist.strings */; };
+		F4974C2A137DCBEB00015426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4974C29137DCBEB00015426 /* main.m */; };
+		F4974C2D137DCBEB00015426 /* StatusOverlayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4974C2C137DCBEB00015426 /* StatusOverlayAppDelegate.m */; };
+		F4974C30137DCBEB00015426 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4974C2E137DCBEB00015426 /* MainWindow.xib */; };
+		F4974C33137DCBEB00015426 /* StatusOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4974C32137DCBEB00015426 /* StatusOverlayViewController.m */; };
+		F4974C36137DCBEB00015426 /* StatusOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4974C34137DCBEB00015426 /* StatusOverlayViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4974C18137DCBEB00015426 /* StatusOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4974C1C137DCBEB00015426 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4974C1E137DCBEB00015426 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4974C20137DCBEB00015426 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4974C24137DCBEB00015426 /* StatusOverlay-Info.plist */ = {isa = PBXFileReference; path = "StatusOverlay-Info.plist"; sourceTree = "<group>"; };
+		F4974C26137DCBEB00015426 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4974C28137DCBEB00015426 /* StatusOverlay-Prefix.pch */ = {isa = PBXFileReference; path = "StatusOverlay-Prefix.pch"; sourceTree = "<group>"; };
+		F4974C29137DCBEB00015426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4974C2B137DCBEB00015426 /* StatusOverlayAppDelegate.h */ = {isa = PBXFileReference; path = StatusOverlayAppDelegate.h; sourceTree = "<group>"; };
+		F4974C2C137DCBEB00015426 /* StatusOverlayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusOverlayAppDelegate.m; sourceTree = "<group>"; };
+		F4974C2F137DCBEB00015426 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F4974C31137DCBEB00015426 /* StatusOverlayViewController.h */ = {isa = PBXFileReference; path = StatusOverlayViewController.h; sourceTree = "<group>"; };
+		F4974C32137DCBEB00015426 /* StatusOverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusOverlayViewController.m; sourceTree = "<group>"; };
+		F4974C35137DCBEB00015426 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StatusOverlayViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4974C15137DCBEB00015426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4974C1D137DCBEB00015426 /* UIKit.framework in Frameworks */,
+				F4974C1F137DCBEB00015426 /* Foundation.framework in Frameworks */,
+				F4974C21137DCBEB00015426 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4974C0D137DCBEB00015426 = {
+			isa = PBXGroup;
+			children = (
+				F4974C22137DCBEB00015426 /* StatusOverlay */,
+				F4974C1B137DCBEB00015426 /* Frameworks */,
+				F4974C19137DCBEB00015426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4974C19137DCBEB00015426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4974C18137DCBEB00015426 /* StatusOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4974C1B137DCBEB00015426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4974C1C137DCBEB00015426 /* UIKit.framework */,
+				F4974C1E137DCBEB00015426 /* Foundation.framework */,
+				F4974C20137DCBEB00015426 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4974C22137DCBEB00015426 /* StatusOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				F4974C2B137DCBEB00015426 /* StatusOverlayAppDelegate.h */,
+				F4974C2C137DCBEB00015426 /* StatusOverlayAppDelegate.m */,
+				F4974C2E137DCBEB00015426 /* MainWindow.xib */,
+				F4974C31137DCBEB00015426 /* StatusOverlayViewController.h */,
+				F4974C32137DCBEB00015426 /* StatusOverlayViewController.m */,
+				F4974C34137DCBEB00015426 /* StatusOverlayViewController.xib */,
+				F4974C23137DCBEB00015426 /* Supporting Files */,
+			);
+			path = StatusOverlay;
+			sourceTree = "<group>";
+		};
+		F4974C23137DCBEB00015426 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4974C24137DCBEB00015426 /* StatusOverlay-Info.plist */,
+				F4974C25137DCBEB00015426 /* InfoPlist.strings */,
+				F4974C28137DCBEB00015426 /* StatusOverlay-Prefix.pch */,
+				F4974C29137DCBEB00015426 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4974C17137DCBEB00015426 /* StatusOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4974C39137DCBEB00015426 /* Build configuration list for PBXNativeTarget "StatusOverlay" */;
+			buildPhases = (
+				F4974C14137DCBEB00015426 /* Sources */,
+				F4974C15137DCBEB00015426 /* Frameworks */,
+				F4974C16137DCBEB00015426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusOverlay;
+			productName = StatusOverlay;
+			productReference = F4974C18137DCBEB00015426 /* StatusOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4974C0F137DCBEB00015426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = LovelyRide;
+			};
+			buildConfigurationList = F4974C12137DCBEB00015426 /* Build configuration list for PBXProject "StatusOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4974C0D137DCBEB00015426;
+			productRefGroup = F4974C19137DCBEB00015426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4974C17137DCBEB00015426 /* StatusOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4974C16137DCBEB00015426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4974C27137DCBEB00015426 /* InfoPlist.strings in Resources */,
+				F4974C30137DCBEB00015426 /* MainWindow.xib in Resources */,
+				F4974C36137DCBEB00015426 /* StatusOverlayViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4974C14137DCBEB00015426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4974C2A137DCBEB00015426 /* main.m in Sources */,
+				F4974C2D137DCBEB00015426 /* StatusOverlayAppDelegate.m in Sources */,
+				F4974C33137DCBEB00015426 /* StatusOverlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4974C25137DCBEB00015426 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4974C26137DCBEB00015426 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4974C2E137DCBEB00015426 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4974C2F137DCBEB00015426 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F4974C34137DCBEB00015426 /* StatusOverlayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4974C35137DCBEB00015426 /* en */,
+			);
+			name = StatusOverlayViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4974C37137DCBEB00015426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4974C38137DCBEB00015426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F4974C3A137DCBEB00015426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusOverlay/StatusOverlay-Prefix.pch";
+				INFOPLIST_FILE = "StatusOverlay/StatusOverlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4974C3B137DCBEB00015426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusOverlay/StatusOverlay-Prefix.pch";
+				INFOPLIST_FILE = "StatusOverlay/StatusOverlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4974C12137DCBEB00015426 /* Build configuration list for PBXProject "StatusOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4974C37137DCBEB00015426 /* Debug */,
+				F4974C38137DCBEB00015426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4974C39137DCBEB00015426 /* Build configuration list for PBXNativeTarget "StatusOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4974C3A137DCBEB00015426 /* Debug */,
+				F4974C3B137DCBEB00015426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4974C0F137DCBEB00015426 /* Project object */;
+}
